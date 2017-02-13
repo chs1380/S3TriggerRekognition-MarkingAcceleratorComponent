@@ -7,11 +7,11 @@ resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repos
 
 
 libraryDependencies ++= Seq(
-  "com.amazonaws" % "aws-java-sdk-core" % "1.11.65",
-  "com.amazonaws" % "aws-lambda-java-events" % "1.3.0",
-  "com.amazonaws" % "aws-java-sdk-s3" % "1.11.65",
-  "com.amazonaws" % "aws-java-sdk-rekognition" % "1.11.65",
-  "com.google.code.gson" % "gson" % "2.8.0"
+  "com.amazonaws" % "aws-java-sdk-core" % "1.+",
+  "com.amazonaws" % "aws-lambda-java-events" % "1.+",
+  "com.amazonaws" % "aws-java-sdk-s3" % "1.+",
+  "com.amazonaws" % "aws-java-sdk-rekognition" % "1.+",
+  "com.google.code.gson" % "gson" % "2.+"
 )
 
 
